@@ -1,8 +1,8 @@
 class CarController {
   //Forbinder - Sensorer & Hjerne & Bil
-  float varians             = 2; //hvor stor er variansen på de tilfældige vægte og bias
-  Car bil                    = new Car();
-  NeuralNetwork hjerne       = new NeuralNetwork(varians); 
+  float varians = 2; //hvor stor er variansen på de tilfældige vægte og bias
+  Car bil = new Car();
+  NeuralNetwork hjerne = new NeuralNetwork(varians); 
   SensorSystem  sensorSystem = new SensorSystem();
       
   void update() {
